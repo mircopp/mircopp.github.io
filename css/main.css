@@ -1,0 +1,27 @@
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-social {
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #999999;
+    background-color: #e6e6e6;
+    border-style: solid;
+}
